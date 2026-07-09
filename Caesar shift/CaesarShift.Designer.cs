@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CaesarShift));
             this.shiftCountBox = new System.Windows.Forms.TextBox();
             this.codeBox = new System.Windows.Forms.TextBox();
             this.outputBox = new System.Windows.Forms.TextBox();
@@ -123,6 +124,7 @@
             this.Controls.Add(this.outputBox);
             this.Controls.Add(this.codeBox);
             this.Controls.Add(this.shiftCountBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CaesarShift";
             this.Text = "Caesar Shift";
             this.ResumeLayout(false);

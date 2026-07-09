@@ -41,6 +41,9 @@ namespace Caesar_shift
             if (string.IsNullOrEmpty(guess))
                 return "enter some text first";
 
+            if (guess.Length < 20)
+                return "Text too short for accurate auto detection. Try using manual shift instead.";
+
             string bestResult = " ";
             double bestScore = -1;
             int bestShift = 0;
@@ -96,7 +99,7 @@ namespace Caesar_shift
                 if (char.IsLetter(c))
                 {
                     int currentIndex = c - 'A' + 1;
-                    int newIndex = ((currentIndex + shiftCount - 1) % 26) + 1;
+                    int newIndex = ((currentIndex - shiftCount - 1 + 26) % 26) + 1;
                     result += alphabet[newIndex];
                 }
                 else
