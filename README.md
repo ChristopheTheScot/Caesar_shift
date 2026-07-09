@@ -31,4 +31,4 @@ frequency analysis to reliably identify the correct shift. For short texts, the 
 
 ## References:
 
-Practicalcryptography.com. (2009). Practical Cryptography. [online] Available at: http://practicalcryptography.com/cryptanalysis/letter-frequencies-various-languages/english-letter-frequencies/ [Accessed 9 July 2026].
+Practicalcryptography.com. (2009). Practical Cryptography. Available at: http://practicalcryptography.com/cryptanalysis/letter-frequencies-various-languages/english-letter-frequencies/.
