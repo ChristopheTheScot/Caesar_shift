@@ -15,6 +15,10 @@ The cipher text is entered into the Original Text box. A shift value between 1 a
 ## How Auto Detect Works
 The auto detect feature uses frequency analysis to identify the correct shift. In English, certain letters appear more frequently than others, with E being the most common at 12.7%, followed by T, A and O. The application tries all 25 possible shifts and scores each result based on how closely the letter frequencies match typical English text. The highest scoring result is returned as the best guess. The auto detect feature works best on longer texts, as shorter phrases may not contain enough letters to produce an accurate result. (Practicalcryptography.com, 2009)
 
+## Limitations
+The auto detect feature requires a minimun of 20 characters to produce and accurate result. Short phrases do not contain enough letters for
+frequency analysis to reliably identify the correct shift. For short texts, the manual shift value should be used instead.
+
 ## Requirements
 - Windows
 - .NET Framework 4.7.2
