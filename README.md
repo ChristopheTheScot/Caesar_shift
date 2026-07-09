@@ -25,6 +25,6 @@ The auto detect feature uses frequency analysis to identify the correct shift. I
 2. Open `Caesar_shift.sln` in Visual Studio
 3. Build and run the project
 
-##References:
+## References:
 
 Practicalcryptography.com. (2009). Practical Cryptography. [online] Available at: http://practicalcryptography.com/cryptanalysis/letter-frequencies-various-languages/english-letter-frequencies/ [Accessed 9 July 2026].
